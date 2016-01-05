@@ -1,0 +1,54 @@
+body, p {
+  margin: 0;
+  padding: 0; }
+
+.clearfix {
+  overflow: hidden; }
+
+.left {
+  background-color: #009688;
+  width: 49%;
+  color: white;
+  display: inline-block;
+  height: 100vh;
+  text-align: center;
+  vertical-align: top; }
+
+p {
+  padding: 100px 0;
+  font-size: 1.8em;
+  font-family: monospace;
+  text-align: center; }
+
+button {
+  margin: 0 auto;
+  font-size: 1.2em;
+  font-family: monospace;
+  padding: 10px 30px;
+  background: #FFC107;
+  cursor: pointer;
+  border: none;
+  border-radius: 50px;
+  transition: all .3s ease;
+  vertical-align: middle; }
+  button:hover {
+    background-color: white; }
+
+.right.hidden {
+  display: none; }
+
+.right {
+  display: inline-block;
+  width: 49%;
+  background-color: #B2DFDB;
+  height: 100vh; }
+  .right p {
+    padding-bottom: 40px; }
+
+#fillInUserInfo p {
+  padding: 0px;
+  padding-left: 10%;
+  text-align: left;
+  font-style: italic; }
+
+/*# sourceMappingURL=styles.css.map */
